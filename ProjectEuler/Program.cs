@@ -11,7 +11,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            var problemNumber = 10;
+            var problemNumber = 1;
 
             var problem = GetProblem(problemNumber);
 
@@ -22,6 +22,8 @@ namespace ProjectEuler
         {
             switch (i)
             {
+                case 1:
+                    return new Problem1();
                 case 10:
                     return new Problem10();
                 case 16:
